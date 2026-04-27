@@ -828,7 +828,7 @@ header {
     }
 
     .projects img {
-        width: 415px;
+        width: 100%;
         height: 250px;
         flex-wrap: wrap;
     }
