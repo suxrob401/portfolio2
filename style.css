@@ -32,7 +32,6 @@ header {
     max-width: 1600px;
     height: 700px;
     display: flex;
-    margin-top: 50px;
 }
 
 .contact {
@@ -58,6 +57,10 @@ header {
     font-family: sans-serif;
 }
 
+.logo img {
+    color: black;
+}
+
 .left-h3 {
     padding-top: 150px;
     font-weight: 700;
@@ -65,7 +68,6 @@ header {
     line-height: 100%;
     letter-spacing: 0%;
     vertical-align: bottom;
-
 }
 
 .left-h1 {
@@ -165,10 +167,10 @@ header {
     padding: 4px 15px;
 }
 
-.read-img {
+/* .read-img {
     display: flex;
     justify-content: end;
-}
+} */
 
 .about {
     width: 100%;
@@ -589,6 +591,79 @@ header {
 @media (max-width: 480px) {
 
 
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        color: white;
+        background-color: black;
+        max-width: 1200px;
+        height: 430px;
+        display: flex;
+    }
+
+    .logo img {
+        color: white;
+    }
+
+    .right-container {
+        width: 55%;
+        background-color: black;
+    }
+
+    .right-image {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-image img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+
+    .left-container {
+        padding: 0;
+        background-color: black;
+        font-family: sans-serif;
+        margin: auto;
+        text-align: center;
+    }
+
+    .left-h1 {
+        padding-top: 0px;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    .left-logo {
+        color: white;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .left-h3 {
+        padding-top: 0;
+        color: white;
+        padding-top: 50px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: bottom;
+        padding-top: 0;
+    }
+
+    .navbar2 {
+        display: none;
+    }
+
+
     .navbar {
         display: none;
     }
@@ -604,6 +679,14 @@ header {
     .read-h3 {
         padding-top: 20px;
         letter-spacing: 5px;
+    }
+
+    .left-p {
+        padding-top: 20px;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 100%;
+        color: #909090;
     }
 
     .read-long-p {
@@ -714,6 +797,7 @@ header {
 
     .row {
         display: flex;
+        justify-content: space-evenly;
         gap: 50px;
         flex-wrap: wrap;
     }
@@ -744,9 +828,68 @@ header {
     }
 
     .projects img {
-    width: 450px;
-    height: 250px;
-    flex-wrap: wrap;
-}
+        width: 415px;
+        height: 250px;
+        flex-wrap: wrap;
+    }
+
+    .contact-end {
+        height: 850px;
+    }
+
+    .text-contact-end {
+        text-align: center;
+        margin-top: 80px;
+        font-family: sans-serif;
+    }
+
+
+    .text-contact-end h1 {
+        width: 250px;
+        height: 80px;
+        font-size: 22px;
+    }
+
+    .text-contact-end p {
+        padding-top: 50px;
+        width: 310px;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+
+    .contact-from {
+        margin-top: 80px;
+        gap: 50px;
+    }
+
+
+    .input-group input {
+        width: 300px;
+        font-size: 11px;
+    }
+
+    .contact-from textarea {
+        width: 300px;
+        font-size: 11px;
+    }
+
+
+    .contact-submit {
+        margin-top: 0;
+        font-weight: 600;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .footer-back img {
+        margin-top: 35px;
+    }
+
+    .platforma {
+        margin-top: 40px;
+        gap: 15px;
+    }
+
 
 }
